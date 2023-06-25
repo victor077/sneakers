@@ -1,9 +1,13 @@
-import Header from '@/components/header'
+import Banner from "@/components/Banner";
+import Header from "@/components/Header";
+import Section from "@/components/Section";
 
 export default function Home() {
   return (
     <main>
       <Header />
-    </main >
-  )
+      <Banner />
+      <Section />
+    </main>
+  );
 }
