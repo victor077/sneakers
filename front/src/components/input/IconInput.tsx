@@ -8,9 +8,9 @@ import InputBase from "@/components/input/InputBase";
 const IconInput = () => {
   return (
     <div className="w-56 relative py-6">
-      <InputBase placeholder="enter your email" />
+      <InputBase placeholder="enter your email" isIcon />
       <Image
-        className="absolute left-5 top-1/2 -translate-y-1/2"
+        className="absolute left-2 top-1/2 -translate-y-1/2"
         alt="icon user"
         src={userIcon}
       />

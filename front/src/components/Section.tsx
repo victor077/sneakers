@@ -18,7 +18,7 @@ const Section = () => {
             Stay up to date and receive all the latest news
           </p>
           <div className="flex items-center gap-8">
-            <Button>Get start</Button>
+            <Button variant="primary">Get start</Button>
             <IconInput />
           </div>
         </div>
@@ -28,7 +28,7 @@ const Section = () => {
       </div>
       <div className=" flex flex-col justify-center items-center gap-2">
         <hr className="text-gray-300 h-2 w-1/2 font-semibold" />
-        <p className="text-gray-300 text-2xl font-bold text-center w-2/3">
+        <p className="text-gray-300 text-2xl font-normal text-center w-2/3">
           With the arrival of new challenges in recent years, many professions
           have adapted through the use of technology. Don't be left behind and
           see the benefits of having your own business without bureaucracy

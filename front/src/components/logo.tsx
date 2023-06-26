@@ -1,12 +1,17 @@
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const Logo = () => {
-    return (
-        <span className='flex items-center ' style={{ "color": "rgba(250, 250, 250, 0.7)", "textShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
-            <h1 >SN</h1>
-            <h1>KS</h1>
-        </span>
-    )
-}
+  return (
+    <h1 className="text-gradient flex items-center">
+      <Link
+        href="./"
+        className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-2xl font-bold cursor-pointer"
+      >
+        SNKS
+      </Link>
+    </h1>
+  );
+};
 
-export default Logo
+export default Logo;

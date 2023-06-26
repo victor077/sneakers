@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -11,8 +12,10 @@ function Header() {
       </header>
       <header>
         <nav className="bg-[#F5F5F7] justify-center items-center flex">
-          <ul className="flex gap-8 cursor-pointer py-6">
-            <li>Login</li>
+          <ul className="flex gap-8 cursor-pointer py-6 font-medium text-lg">
+            <Link href="/login">
+              <li>Login</li>
+            </Link>
             <li>Community</li>
           </ul>
         </nav>
