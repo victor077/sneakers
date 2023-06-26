@@ -81,7 +81,7 @@ module.exports = {
       },
       height: {
         "vh-minus-100": "calc(100vh - 100px)",
-        "screen-80": "80vh"
+        "screen-80": "80vh",
       },
     },
   },
