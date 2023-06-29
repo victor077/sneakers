@@ -16,7 +16,7 @@ function Header() {
             <Link href="/login">
               <li>Login</li>
             </Link>
-            <li>Community</li>
+            <li>Comunidade</li>
           </ul>
         </nav>
       </header>
