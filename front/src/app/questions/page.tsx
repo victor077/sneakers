@@ -2,15 +2,17 @@
 import React from "react";
 
 import Card from "@/components/Card";
-// import { useRouter } from "next/router";
+import Button from "@/components/Button";
 
 const Page = () => {
-  // const router = useRouter();
-
   return (
-      <div className=" h-96 flex items-center justify-center">
-        <Card />
-      </div>
+    <div className=" h-96 flex items-center justify-center">
+      <Card
+        body={"teste"}
+        firstButton={<Button variant="primary">teste</Button>}
+        lastButton={<Button variant="secondary">teste</Button>}
+      ></Card>
+    </div>
   );
 };
 
