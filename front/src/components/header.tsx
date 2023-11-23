@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Logo from "./Logo";
+import Logo from "./logo";
 
 function Header() {
   return (
@@ -10,13 +10,15 @@ function Header() {
           <Logo />
         </nav>
       </header>
-      <header>
+      <header className="mb-36">
         <nav className="bg-[#F5F5F7] justify-center items-center flex">
           <ul className="flex gap-8 cursor-pointer py-6 font-medium text-lg">
             <Link href="/login">
-              <li>Login</li>
+              <li className="border-transparent border-b-2 hover:border-slate-950">Entrar</li>
             </Link>
-            <li>Comunidade</li>
+            <Link href="/register">
+              <li className="border-transparent border-b-2 hover:border-slate-950">Junte-se a nós</li>
+            </Link>
           </ul>
         </nav>
       </header>

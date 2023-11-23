@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+import Header from "@/components/header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { Roboto } from "next/font/google";
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <Header /> {children}
+        <Header /><div className="mb-24"> {children}</div>
       </body>
     </html>
   );

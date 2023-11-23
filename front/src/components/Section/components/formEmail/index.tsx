@@ -19,7 +19,7 @@ const FormEmail = () => {
       className="flex items-center gap-8"
     >
       <IconInput {...register("email")} placeholder="Digite seu email" />
-      <Button variant="primary">Iniciar</Button>
+      <Button color="secondary">Iniciar</Button>
     </form>
   );
 };
