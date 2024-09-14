@@ -23,8 +23,8 @@ const FormLogin = () => {
       <InputBase {...register("email")} title="Email" placeholder="" />
       <InputBase {...register("password")} title="Password" placeholder="" />
       <NavigationLoginRegister path="./register" title="Não tenho registro" />
-      <Button variant="secondary" type="submit">
-        Register
+      <Button size="full" type="submit">
+        Entrar
       </Button>
     </form>
   );

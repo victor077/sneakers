@@ -41,7 +41,7 @@ const FormRegister = () => {
         placeholder="Confirme sua senha"
       />
       <NavigationLoginRegister path="./login" title="Já sou registrado" />
-      <Button variant="secondary" type="submit">
+      <Button size="full" type="submit">
         Register
       </Button>
     </form>
